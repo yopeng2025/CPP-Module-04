@@ -2,7 +2,7 @@
 
 This module marks the transition from simple class inheritance to **Runtime Polymorphism**. The focus is on designing robust class hierarchies, managing memory in complex pointer-based systems, and defining strict interfaces using abstract classes.
 
----
+
 
 ## 🧠 Key Learning Objectives
 
@@ -13,7 +13,7 @@ This module marks the transition from simple class inheritance to **Runtime Poly
 * **🔴 Deep Copy**: Implementing the *Orthodox Canonical Form* to manage internal heap-allocated resources, avoiding shallow copy issues.
 
 
----
+
 
 ## 📂 Exercise Breakdown
 
@@ -44,11 +44,11 @@ This module marks the transition from simple class inheritance to **Runtime Poly
     * **Floor Management Algorithm**: Solving the `unequip()` paradox—handling pointers that are removed from the inventory but must remain allocated until the end of the program to avoid memory leaks.
 
 
----
+
 
 ## 🚀 Technical Requirements
 * **Standard**: C++ 98.
 * **Compiler**: `c++` with `-Wall -Wextra -Werror` flags.
 * **Safety**: Zero memory leaks, verified by `Valgrind`.
 
----
+
