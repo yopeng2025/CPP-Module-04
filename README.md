@@ -1,11 +1,11 @@
 # CPP Module 04
 
-## Overview
+
 This module covers various advanced object-oriented programming concepts in C++. The topics addressed include virtual functions, polymorphism, deep copy, abstract classes, and interfaces.
 
 ## Exercises
 
-### Exercise 1: Virtual Functions
+### Exercise 00: Virtual Functions
 **Concept:** Virtual functions allow you to override functions in derived classes.
 
 **Example:**
@@ -31,7 +31,7 @@ bptr = &d;
 bptr->show();  // Calls Derived's show function
 ```
 
-### Exercise 2: Polymorphism
+### Exercise 01: Polymorphism
 **Concept:** Polymorphism enables objects of different classes to be treated as objects of a common superclass.
 
 **Example:**
@@ -45,7 +45,7 @@ Derived d;
 display(d);  // Calls Derived's show
 ```
 
-### Exercise 3: Deep Copy
+### Exercise 02: Deep Copy
 **Concept:** A deep copy creates a new instance of an object and copies all fields to the new instance, allocating new memory for dynamic resources.
 
 **Example:**
@@ -64,7 +64,7 @@ public:
 };
 ```
 
-### Exercise 4: Abstract Classes
+### Exercise 03: Abstract Classes
 **Concept:** An abstract class cannot be instantiated and is designed to be inherited by subclasses.
 
 **Example:**
@@ -82,27 +82,3 @@ public:
 };
 ```
 
-### Exercise 5: Interfaces
-**Concept:** Interfaces define a contract for classes, requiring them to implement certain methods without providing any implementation.
-
-**Example:**
-```cpp
-class Interface {
-public:
-    virtual void method1() = 0;
-    virtual void method2() = 0;
-};
-
-class ImplementingClass : public Interface {
-public:
-    void method1() override {
-        std::cout << "Method 1 implemented." << std::endl;
-    }
-    void method2() override {
-        std::cout << "Method 2 implemented." << std::endl;
-    }
-};
-```
-
-## Conclusion
-This module enhances your understanding of C++ by covering core concepts of object-oriented programming. Mastering these concepts is crucial for writing efficient and scalable C++ applications.
